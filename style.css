@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+.panel {
+    display: block;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+button {
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    color: #757575;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Consolas","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.plusStyle, .minusStyle, .removeStyle {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+input {
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #757575;
+    padding: .5em;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+                    /* TABLE */
+
+table {
+    text-align: center;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+thead tr th {
+    font-size:1em; 
+    font-weight: 300;
+    line-height:1em;
+    color: #FB667A;
+}
+
+table td {
+    font-weight: 300;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+table td, table th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+table tr:nth-child(odd) { background-color: #323C50; }
+
+
+table tr:nth-child(even) { background-color: #2C3446; }
+
+table th { background-color: #1F2739; }
+
+
+table tr:hover {
+    background-color: #464A52;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+table button:hover {
+    background-color: #FFF842;
+    color: #403E10;
+    font-weight: bold;
+
+    box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}
